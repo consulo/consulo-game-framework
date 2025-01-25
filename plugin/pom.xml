@@ -32,6 +32,10 @@
                 <artifactId>maven-consulo-plugin</artifactId>
                 <extensions>true</extensions>
                 <configuration>
+                    <dependencies>
+                        <dependency>consulo.audio</dependency>
+                        <dependency>com.intellij.images</dependency>
+                    </dependencies>
                     <packaging>
                         <skip>${dev.mode}</skip>
                         <version>${build.number}</version>
@@ -64,6 +68,20 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>consulo.game.framework.api</artifactId>
             <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>consulo.audio</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>com.intellij.images</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
