@@ -5,7 +5,10 @@
 /.consulo/encodings.xml
 /.consulo/compiler.xml
 /.consulo/misc.xml
+/.consulo/vcs.xml
+/.consulo/.name
 /.consulo/copyright/profiles_settings.xml
 /.consulo/libraries/     
 /.consulo/sandbox/    
 target/
+plugin/sandbox
