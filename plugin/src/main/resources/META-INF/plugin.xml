@@ -1,0 +1,8 @@
+<consulo-plugin url="https://github.com/consulo/consulo-game-framework">
+    <id>consulo.game.framework</id>
+    <name>Game Framework API</name>
+    <localize>consulo.simple.plugin.SimpleLocalize</localize>
+    <tags>
+        <tag>game.framework</tag>
+    </tags>
+</consulo-plugin>
